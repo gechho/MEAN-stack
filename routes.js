@@ -27,7 +27,7 @@ module.exports = function(app){
                 if (err){
                     console.log(`$(err)`);
                     res.status(400).json({'msg':'Error creating door'});
-                };
+                }
                 else {
                     res.json(newDoor);
                 }                                                              
